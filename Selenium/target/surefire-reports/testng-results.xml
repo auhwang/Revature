@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="17" started-at="2018-07-27T19:42:27Z" finished-at="2018-07-27T19:42:27Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="17" started-at="2018-07-27T19:42:27Z" finished-at="2018-07-27T19:42:27Z">
+      <class name="com.revature.testng.NewTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.revature.testng.NewTest@7ca48474]" name="beforeSuite" is-config="true" duration-ms="9" started-at="2018-07-27T19:42:27Z" finished-at="2018-07-27T19:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.revature.testng.NewTest@7ca48474]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-07-27T19:42:27Z" finished-at="2018-07-27T19:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.revature.testng.NewTest@7ca48474]" name="beforeClass" is-config="true" duration-ms="1" started-at="2018-07-27T19:42:27Z" finished-at="2018-07-27T19:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.revature.testng.NewTest@7ca48474]" name="f" duration-ms="1" started-at="2018-07-27T19:42:27Z" finished-at="2018-07-27T19:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.revature.testng.NewTest@7ca48474]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-27T19:42:27Z" finished-at="2018-07-27T19:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.revature.testng.NewTest@7ca48474]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-27T19:42:27Z" finished-at="2018-07-27T19:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="h()[pri:0, instance:com.revature.testng.NewTest@7ca48474]" name="h" duration-ms="0" started-at="2018-07-27T19:42:27Z" finished-at="2018-07-27T19:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- h -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.revature.testng.NewTest@7ca48474]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-07-27T19:42:27Z" finished-at="2018-07-27T19:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.revature.testng.NewTest@7ca48474]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-07-27T19:42:27Z" finished-at="2018-07-27T19:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.revature.testng.NewTest@7ca48474]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-07-27T19:42:27Z" finished-at="2018-07-27T19:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.revature.testng.NewTest@7ca48474]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-27T19:42:27Z" finished-at="2018-07-27T19:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.revature.testng.NewTest@7ca48474]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-07-27T19:42:27Z" finished-at="2018-07-27T19:42:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.revature.testng.NewTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
