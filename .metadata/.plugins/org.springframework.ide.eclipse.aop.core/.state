@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SOAP_Sserver"/>
+<aop-project name="spring-mvc-demo2"/>
+<aop-project name="spring-mvc-demo3"/>
+<aop-project name="SoapClient"/>
+<aop-project name="spring-demo-annotations"/>
+<aop-project name="spring-mvc-demo"/>
+</aop-reference-model>

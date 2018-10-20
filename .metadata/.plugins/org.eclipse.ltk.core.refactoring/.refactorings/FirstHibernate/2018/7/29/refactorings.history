@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.revature.bean&apos; to &apos;com.revature.beans&apos;&#x0A;- Original project: &apos;FirstHibernate&apos;&#x0A;- Original element: &apos;FirstHibernate/src/main/java/com.revature.bean&apos;&#x0A;- Renamed element: &apos;FirstHibernate/src/main/java/com.revature.beans&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.revature.bean&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java&lt;com.revature.bean" name="com.revature.beans" qualified="false" references="true" stamp="1532014406966" textual="false" version="1.0"/>
+</session>

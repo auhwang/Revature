@@ -1,0 +1,15 @@
+package com.luv2code.springdemo;
+
+public class CricketCoach implements Coach {
+
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

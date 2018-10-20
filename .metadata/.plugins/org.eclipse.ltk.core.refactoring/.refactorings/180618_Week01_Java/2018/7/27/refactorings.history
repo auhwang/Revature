@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.revature.week3.day1.misc.lambda.dietnpc&apos; to &apos;DietNpc&apos;&#x0A;- Original project: &apos;180618_Week01_Java&apos;&#x0A;- Original element: &apos;com.revature.week3.day1.misc.lambda.dietnpc&apos;&#x0A;- Renamed element: &apos;com.revature.week3.day1.misc.lambda.DietNpc&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;dietnpc&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.revature.week3.day1.misc.lambda{dietnpc.java[dietnpc" matchStrategy="1" name="DietNpc" qualified="false" references="true" similarDeclarations="false" stamp="1530548941165" textual="false" version="1.0"/>
+</session>
