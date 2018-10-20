@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 2 elements to &apos;drivers&apos;&#x0A;- Original project: &apos;Selenium&apos;&#x0A;- Destination element: &apos;drivers&apos;&#x0A;- Original elements:&#x0A;     geckodriver&#x0A;     chromedriver" description="Copy files" element1="Driver/geckodriver" element2="Driver/chromedriver" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1533499560695" target="/Maverick_OnlineGarageSale/src/main/resources/drivers" units="0" version="1.0"/>
-</session>
