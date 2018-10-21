@@ -29,6 +29,9 @@ public class CustomerController {
 			BindingResult theBindingResult) {
 		
 		System.out.println("Last name: |" + theCustomer.getLastName() + "|");
+		
+		System.out.println("the error message to putin properties is found here" + theBindingResult);
+		
 		if(theBindingResult.hasErrors()) {
 			return "customer-form";
 		}else {
