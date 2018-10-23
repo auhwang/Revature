@@ -18,7 +18,7 @@ public class MainDemoApp {
 		
 		//call the business method
 		theAccountDAO.addAccount();
-		theMembershipDAO.addAccount();
+		theMembershipDAO.addAsdf();
 		
 		
 		//cose the context
