@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+  <test thread-count="5" verbose="2" name="Default test">
+    <classes>
+      <class name="com.infosys.amazon.testng.TestAmazon"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <test name="TestWithGroups">
+  	<groups>
+  		<run>
+  			<include name="setup"/>
+  			<include name="allTests"/>
+  			<include name="teardown"/>
+  			<!-- This will only run tests with the specified group tag
+  				You can also exclude specific tags -->
+  		</run>
+  	</groups>
+  	<classes>
+  		<class name="com.infosys.amazon.pages.AmazonPF"></class>
+  	</classes>
+  </test>
+</suite> <!-- Default suite -->
