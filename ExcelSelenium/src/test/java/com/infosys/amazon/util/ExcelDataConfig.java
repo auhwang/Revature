@@ -22,9 +22,14 @@ public class ExcelDataConfig {
 		}
 	}
 	
-	public String getData(int sheetInd, int row, int col) {
+	public String getStringData(int sheetInd, int row, int col) {
 		sheet = wb.getSheetAt(sheetInd);
 		return sheet.getRow(row).getCell(col).getStringCellValue();
+	}
+	
+	public int getIntData(int sheetInd, int row, int col) {
+		sheet = wb.getSheetAt(sheetInd);
+		return (int)sheet.getRow(row).getCell(col).getNumericCellValue();
 	}
 	
 	public void putData(int sheetInd, int row, int col, String val) {
