@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+  <test thread-count="5" verbose="2" name="Default testFireFox">
+  <parameter name ="browser" value = "firefox"/>
+    <classes>
+      <class name="com.infosys.mercury.testng.TestMercury"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+  <!-- <test name="TestWithGroupsFireFox">
+  	<groups>
+  		<run>
+  			<include name="setup"/>
+  			<include name="allTests"/>
+  			<include name="teardown"/>
+  			This will only run tests with the specified group tag
+  				You can also exclude specific tags
+  		</run>
+  	</groups>
+  	<classes>
+  		<class name="com.infosys.mercury.pages.RegisterPOM"></class>
+  	</classes>
+  </test> -->
+  
+  <test thread-count="5" verbose="2" name="Default testChrome">
+  <parameter name ="browser" value = "chrome"/>
+    <classes>
+      <class name="com.infosys.mercury.testng.TestMercury"/>
+    </classes>
+  </test> <!-- Default test -->
+  
+ <!--  <test name="TestWithGroupsChrome">
+  	<groups>
+  		<run>
+  			<include name="setup"/>
+  			<include name="allTests"/>
+  			<include name="teardown"/>
+  			This will only run tests with the specified group tag
+  				You can also exclude specific tags
+  		</run>
+  	</groups>
+  	<classes>
+  		<class name="com.infosys.mercury.pages.RegisterPOM"></class>
+  	</classes>
+  </test> -->
+</suite> <!-- Default suite -->
