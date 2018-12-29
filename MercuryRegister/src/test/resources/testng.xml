@@ -8,20 +8,7 @@
     </classes>
   </test> <!-- Default test -->
   
-  <!-- <test name="TestWithGroupsFireFox">
-  	<groups>
-  		<run>
-  			<include name="setup"/>
-  			<include name="allTests"/>
-  			<include name="teardown"/>
-  			This will only run tests with the specified group tag
-  				You can also exclude specific tags
-  		</run>
-  	</groups>
-  	<classes>
-  		<class name="com.infosys.mercury.pages.RegisterPOM"></class>
-  	</classes>
-  </test> -->
+
   
   <test thread-count="5" verbose="2" name="Default testChrome">
   <parameter name ="browser" value = "chrome"/>
@@ -30,18 +17,5 @@
     </classes>
   </test> <!-- Default test -->
   
- <!--  <test name="TestWithGroupsChrome">
-  	<groups>
-  		<run>
-  			<include name="setup"/>
-  			<include name="allTests"/>
-  			<include name="teardown"/>
-  			This will only run tests with the specified group tag
-  				You can also exclude specific tags
-  		</run>
-  	</groups>
-  	<classes>
-  		<class name="com.infosys.mercury.pages.RegisterPOM"></class>
-  	</classes>
-  </test> -->
+
 </suite> <!-- Default suite -->
